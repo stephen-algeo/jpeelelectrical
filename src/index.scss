@@ -16,7 +16,7 @@ a.btn {
 }
 
 section {
-  padding: 3vh 0 3vh 0;
+  margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
 
@@ -30,5 +30,19 @@ section {
         width: 50%;
       }
     }
+
+    &.info {
+      padding: 0 3vh;
+    }
   }
+}
+
+ul {
+  li {
+    text-align: left;
+  }
+}
+
+p {
+  font-size: 3vh;
 }

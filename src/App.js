@@ -1,16 +1,51 @@
 import React from "react";
 import "./App.scss";
-import logo from "./jason-downlight.jpg";
+import logo from "./downlights.jpg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>J Peel Electrical</h1>
-        <h3>Domestic Electrician</h3>
-        <img src={logo} className="App-logo" alt="logo" />
+        <h2>Local domestic electrician</h2>
       </header>
       <section>
+        <div></div>
+        <div className="info">
+          <p>
+            Father and Son Team with over 30 years
+            <br /> of experience working in people's homes
+          </p>
+          <p>Fully Qualified and registered.</p>
+          <p>
+            No callout charge, happy to come look
+            <br /> and advise for free.
+          </p>
+          <p>
+            All work undertaken, from putting up a light fitting
+            <br /> to full house rewires.
+          </p>
+
+          <p>
+            Areas covered:
+            <ul>
+              <li>Cleckheaton</li>
+              <li>Huddersfield</li>
+              <li>Halifax</li>
+              <li>Bradford</li>
+              <li>Brighouse</li>
+              <li>Morley</li>
+              <li>and all surrounding areas</li>
+            </ul>
+          </p>
+
+          <p>
+            {"email: "}
+            <a href="mailto:jpeelelectrical@gmail.com">
+              jpeelelectrical@gmail.com
+            </a>
+          </p>
+        </div>
         <div className="call">
           <a
             className="btn"
@@ -23,23 +58,6 @@ function App() {
               <span>07929 850056</span>
             </span>
           </a>
-        </div>
-        <div>
-          <p>Fully Qualified and Certified.</p>
-          <p>Father and Son Team.</p>
-          <p>Over 30 years of experience (in people's homes)</p>
-          <p>
-            All work undertaken: ranging from putting up a light fitting to full
-            house rewires.
-          </p>
-          <p>No callout charge.</p>
-          <p>Call/text/whatsapp Jason 07929 850 056</p>
-          <p>
-            {"email: "}
-            <a href="mailto:jpeelelectrical@gmail.com">
-              jpeelelectrical@gmail.com
-            </a>
-          </p>
         </div>
       </section>
     </div>
