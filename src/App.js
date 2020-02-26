@@ -31,6 +31,7 @@ function App() {
             <ul>
               <li>Cleckheaton</li>
               <li>Huddersfield</li>
+              <li>Wakefield</li>
               <li>Halifax</li>
               <li>Bradford</li>
               <li>Brighouse</li>
