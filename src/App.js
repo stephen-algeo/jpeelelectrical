@@ -16,10 +16,7 @@ function App() {
         <div></div>
 
         <div className="info">
-          <p>
-            Father and Son Team with over 30 years
-            <br /> of experience working in people's homes
-          </p>
+          <p>Over 20 years of experience working in people's homes</p>
           <p>Fully Qualified and registered.</p>
           <p>
             No callout charge, happy to come look
@@ -43,13 +40,6 @@ function App() {
               <li>and all surrounding areas</li>
             </ul>
           </p>
-
-          <p className="email">
-            {"email: "}
-            <a href="mailto:jpeelelectrical@gmail.com">
-              jpeelelectrical@gmail.com
-            </a>
-          </p>
         </div>
         <div className="call">
           <a
@@ -59,10 +49,19 @@ function App() {
             rel="noopener noreferrer"
           >
             <span id="primary_cta_1">
-              <span>Call Jason </span>
-              <span>07929 850056</span>
+              <span>Call or text Jason </span>
+              <br />
+              <span>07929 850 056</span>
             </span>
           </a>
+        </div>
+        <div>
+          <p className="email">
+            {"email: "}
+            <a href="mailto:jpeelelectrical@gmail.com">
+              jpeelelectrical@gmail.com
+            </a>
+          </p>
         </div>
       </section>
     </div>
