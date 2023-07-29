@@ -7,21 +7,45 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  background-image: url(./downlights.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 50vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding-bottom: 5vh;
+  background-color: whitesmoke;
+  color: #282c34;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.main-logo {
+  max-width: 50rem;
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+section p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-logo {
+    max-width: 90%;
+  }
+
+  section p {
+  }
+
+  .App-header {
+    min-height: 30vh;
+  }
 }

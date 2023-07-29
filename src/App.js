@@ -5,11 +5,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>J Peel Electrical</h1>
+        <img
+          alt="jpeel electrical logo"
+          className="main-logo"
+          src="./jpeel-logo.png"
+        />
         <h2>Local domestic electrician</h2>
       </header>
       <section>
         <div></div>
+
         <div className="info">
           <p>
             Father and Son Team with over 30 years

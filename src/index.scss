@@ -27,7 +27,9 @@ section {
 
     &.call {
       a {
-        width: 50%;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 18px;
       }
     }
 
@@ -45,4 +47,8 @@ ul {
 
 p {
   font-size: 3vh;
+}
+
+a:-webkit-any-link {
+  color: white;
 }
