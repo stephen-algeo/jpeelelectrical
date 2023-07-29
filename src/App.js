@@ -44,7 +44,7 @@ function App() {
             </ul>
           </p>
 
-          <p>
+          <p className="email">
             {"email: "}
             <a href="mailto:jpeelelectrical@gmail.com">
               jpeelelectrical@gmail.com
@@ -59,7 +59,7 @@ function App() {
             rel="noopener noreferrer"
           >
             <span id="primary_cta_1">
-              <span>Call </span>
+              <span>Call Jason </span>
               <span>07929 850056</span>
             </span>
           </a>

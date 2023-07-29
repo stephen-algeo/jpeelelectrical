@@ -37,12 +37,14 @@ section p {
   font-size: 16px;
 }
 
+.email {
+  margin: 0 0 30px;
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 600px) {
   .main-logo {
     max-width: 90%;
-  }
-
-  section p {
   }
 
   .App-header {
