@@ -32,18 +32,16 @@ function App() {
             <br /> to full house rewires.
           </p>
 
-          <p>
-            Areas covered:
-            <ul>
-              <li>Based in Lepton, Huddersfield</li>
+          <p>Areas covered:</p>
+          <ul>
+            <li>Based in Lepton, Huddersfield</li>
 
-              <li>I cover the whole of Huddersfield HD8, HD9 WF4</li>
-              <li>Cleckheaton</li>
-              <li>Mirfield</li>
-              <li>Brighouse</li>
-              <li>Wakefield</li>
-            </ul>
-          </p>
+            <li>I cover the whole of Huddersfield HD8, HD9 WF4</li>
+            <li>Cleckheaton</li>
+            <li>Mirfield</li>
+            <li>Brighouse</li>
+            <li>Wakefield</li>
+          </ul>
         </div>
 
         <div className="call">
