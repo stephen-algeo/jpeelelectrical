@@ -11,7 +11,11 @@ function App() {
           src="./jpeel-logo.png"
         />
         <h2>Local domestic electrician</h2>
-        <img className="hero" src="images/jase.jpeg"></img>
+        <img
+          className="hero"
+          src="images/jase.jpeg "
+          alt="Jason sat on a step outside a previous job with his tools and drinking a coffee"
+        />
       </header>
       <section>
         <div></div>
@@ -31,14 +35,13 @@ function App() {
           <p>
             Areas covered:
             <ul>
+              <li>Based in Lepton, Huddersfield</li>
+
+              <li>I cover the whole of Huddersfield HD8, HD9 WF4</li>
               <li>Cleckheaton</li>
-              <li>Huddersfield</li>
-              <li>Wakefield</li>
-              <li>Halifax</li>
-              <li>Bradford</li>
+              <li>Mirfield</li>
               <li>Brighouse</li>
-              <li>Morley</li>
-              <li>and all surrounding areas</li>
+              <li>Wakefield</li>
             </ul>
           </p>
         </div>
@@ -68,10 +71,22 @@ function App() {
         </div>
 
         <div className="images">
-          <img src="images/extension-downlights.jpeg" />
-          <img src="images/outside-lights.jpeg" />
-          <img src="images/fusebox.jpeg" />
-          <img src="images/hanging-light.jpeg" />
+          <img
+            src="images/extension-downlights.jpeg"
+            alt="downlight being install in a brightly lit extension"
+          />
+          <img
+            src="images/outside-lights.jpeg"
+            alt="a light being installed in a large garage"
+          />
+          <img
+            src="images/fusebox.jpeg"
+            alt="a freshly install fusebox (consumer unit)"
+          />
+          <img
+            src="images/hanging-light.jpeg"
+            alt="Jason up on a ladder installing a new light fitting"
+          />
         </div>
         <div className="call">
           <a
@@ -96,7 +111,10 @@ function App() {
           </p>
         </div>
         <div className="images">
-          <img src="images/qualification-nic-eic-domestic-install.jpeg" />
+          <img
+            src="images/qualification-nic-eic-domestic-install.jpeg"
+            alt="official logo symbolising the NIC qualification"
+          />
         </div>
       </section>
     </div>
