@@ -81,9 +81,11 @@ section p {
 }
 
 ul {
+  padding-inline-start: 0;
+  list-style: none;
+
   li {
     text-align: center;
-    list-style: none;
     margin-bottom: 0.5rem;
   }
 }
