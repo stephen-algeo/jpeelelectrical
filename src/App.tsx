@@ -42,6 +42,31 @@ function App() {
             </ul>
           </p>
         </div>
+
+        <div className="call">
+          <a
+            className="btn"
+            target="_blank"
+            href="tel:+447929850056"
+            rel="noopener noreferrer"
+          >
+            <span id="primary_cta_1">
+              <span>Call or text Jason </span>
+              <br />
+              <span>07929 850 056</span>
+            </span>
+          </a>
+        </div>
+
+        <div>
+          <p className="email">
+            {"email: "}
+            <a href="mailto:jpeelelectrical@gmail.com">
+              jpeelelectrical@gmail.com
+            </a>
+          </p>
+        </div>
+
         <div className="images">
           <img src="images/extension-downlights.jpeg" />
           <img src="images/outside-lights.jpeg" />
