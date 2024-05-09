@@ -53,13 +53,29 @@ section p {
 }
 
 .hero {
-  max-width: 30rem;
+  width: 30rem;
+  max-width: 100%;
   margin-bottom: 3rem;
 }
 
 .images {
   img {
-    max-width: 30rem;
+    width: 30rem;
+    max-width: 100%;
     margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    margin-bottom: 0;
+  }
+
+  .images {
+    img {
+      margin-bottom: 0.5rem;
+    }
+
+    margin-bottom: 1.5rem;
   }
 }
