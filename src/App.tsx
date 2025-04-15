@@ -34,13 +34,12 @@ function App() {
 
           <p>Areas covered:</p>
           <ul>
-            <li>Based in Lepton, Huddersfield</li>
-
-            <li>I cover the whole of Huddersfield HD8, HD9 WF4</li>
-            <li>Cleckheaton</li>
-            <li>Mirfield</li>
-            <li>Brighouse</li>
-            <li>Wakefield</li>
+            <li>Based in Nafferton</li>
+            <li>Covering:</li>
+            <li>Driffield</li>
+            <li>Beverley</li>
+            <li>Hornsea</li>
+            <li>and everywhere inbetween</li>
           </ul>
         </div>
 
