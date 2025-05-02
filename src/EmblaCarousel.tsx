@@ -69,7 +69,6 @@ const EmblaCarousel: React.FC = () => {
                   </div>
                   <div className="review-info">{slide.extra}</div>
                 </div>
-                {/* // @ts-ignore */}
                 <div className={`review-text ${slide?.size ?? ""}`}>
                   {slide.text}
                 </div>

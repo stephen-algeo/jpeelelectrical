@@ -29,7 +29,7 @@ section.main {
 
       .btn {
         border-radius: 10px;
-        width: 200px;
+        width: 300px;
         line-height: 1.4;
         font-weight: 400;
         font-size: x-large;
@@ -58,22 +58,7 @@ a:-webkit-any-link {
 }
 
 .review {
-  // border: 1px solid red;
   width: 20rem;
-}
-
-.slider {
-  border: 1rem solid tomato;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: row;
-  overflow-x: hidden;
-
-  li {
-    border: 1rem solid purple;
-    width: 400px;
-  }
 }
 
 .embla {
@@ -140,4 +125,10 @@ a:-webkit-any-link {
   justify-content: center;
   height: var(--slide-height);
   user-select: none;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
