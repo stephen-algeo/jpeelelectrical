@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import EmblaCarousel from "./EmblaCarousel";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           alt="Jason sat on a step outside a previous job with his tools and drinking a coffee"
         />
       </header>
-      <section>
+      <section className="main">
         <div></div>
 
         <div className="info">
@@ -44,19 +45,16 @@ function App() {
         </div>
 
         <div className="call">
-          <a
-            className="btn"
-            target="_blank"
-            href="tel:+447929850056"
-            rel="noopener noreferrer"
-          >
-            <span id="primary_cta_1">
-              <span>Call or text Jason </span>
+          <a target="_blank" href="tel:+447929850056" rel="noopener noreferrer">
+            <div className="btn">
+              Call or text Jason
               <br />
-              <span>07929 850 056</span>
-            </span>
+              07929 850 056
+            </div>
           </a>
         </div>
+
+        <EmblaCarousel />
 
         <div>
           <p className="email">
