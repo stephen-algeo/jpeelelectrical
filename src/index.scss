@@ -17,6 +17,11 @@ body {
 }
 
 section.main {
+  text-align: center;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
   & div, & address {
     &.call {
       display: flex;
@@ -39,12 +44,16 @@ section.main {
 
     &.info {
       margin-top: 50px;
-      padding: 0 3vh;
+      padding: 0;
     }
   }
 }
 
 ul {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 300px;
+
   li {
     text-align: left;
   }
@@ -133,8 +142,4 @@ a:-webkit-any-link {
   user-select: none;
 }
 
-.images {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+

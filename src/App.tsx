@@ -135,7 +135,7 @@ function App() {
             </a>
           </p>
         </div>
-        <div className="images">
+        <div className="images qualification">
           <picture>
             <source srcSet="images/qualification-nic-eic-domestic-install.webp" type="image/webp" />
             <img
