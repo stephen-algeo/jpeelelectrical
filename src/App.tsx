@@ -11,7 +11,7 @@ function App() {
           className="main-logo"
           src="./jpeel-logo.png"
         />
-        <h2>Local domestic electrician</h2>
+        <h1>Local domestic electrician</h1>
         <picture>
           <source srcSet="images/jase.webp" type="image/webp" />
           <img
@@ -39,7 +39,7 @@ function App() {
             <br /> to full house rewires.
           </p>
 
-          <p>Areas covered:</p>
+          <h3>Areas covered:</h3>
           <ul>
             <li>Based in Nafferton</li>
             <li>Covering:</li>
@@ -50,7 +50,7 @@ function App() {
           </ul>
         </div>
 
-        <div className="call">
+        <address className="call">
           <a target="_blank" href="tel:+447929850056" rel="noopener noreferrer">
             <div className="btn">
               Call or text Jason
@@ -58,7 +58,7 @@ function App() {
               07929 850 056
             </div>
           </a>
-        </div>
+        </address>
 
         <EmblaCarousel />
 
@@ -113,7 +113,7 @@ function App() {
             />
           </picture>
         </div>
-        <div className="call">
+        <address className="call">
           <a
             className="btn"
             target="_blank"
@@ -126,7 +126,7 @@ function App() {
               <span>07929 850 056</span>
             </span>
           </a>
-        </div>
+        </address>
         <div>
           <p className="email">
             {"email: "}

@@ -17,11 +17,12 @@ body {
 }
 
 section.main {
-  & div {
+  & div, & address {
     &.call {
       display: flex;
       justify-content: center;
       margin: 30px 10px 10px;
+      font-style: normal;
 
       a {
         text-decoration: none;

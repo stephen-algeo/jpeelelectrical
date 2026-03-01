@@ -17,6 +17,12 @@
   justify-content: center;
   background-color: whitesmoke;
   color: #282c34;
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.83em 0;
+  }
 }
 
 .App-link {
@@ -35,6 +41,12 @@ body {
 
 section p {
   font-size: 16px;
+}
+
+section h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 1em 0;
 }
 
 .email {
