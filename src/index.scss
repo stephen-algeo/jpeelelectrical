@@ -17,11 +17,17 @@ body {
 }
 
 section.main {
-  & div {
+  text-align: center;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  & div, & address {
     &.call {
       display: flex;
       justify-content: center;
       margin: 30px 10px 10px;
+      font-style: normal;
 
       a {
         text-decoration: none;
@@ -38,12 +44,16 @@ section.main {
 
     &.info {
       margin-top: 50px;
-      padding: 0 3vh;
+      padding: 0;
     }
   }
 }
 
 ul {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 300px;
+
   li {
     text-align: left;
   }
@@ -83,6 +93,7 @@ a:-webkit-any-link {
   flex: 0 0 var(--slide-size);
   min-width: 0;
   padding-left: var(--slide-spacing);
+  will-change: transform;
 
   .review {
     display: flex;
@@ -131,8 +142,4 @@ a:-webkit-any-link {
   user-select: none;
 }
 
-.images {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+

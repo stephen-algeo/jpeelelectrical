@@ -17,6 +17,17 @@
   justify-content: center;
   background-color: whitesmoke;
   color: #282c34;
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.83em 0;
+  }
+
+  picture {
+    display: block;
+    line-height: 0;
+  }
 }
 
 .App-link {
@@ -35,6 +46,12 @@ body {
 
 section p {
   font-size: 16px;
+}
+
+section h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 1em 0;
 }
 
 .email {
@@ -59,10 +76,39 @@ section p {
 }
 
 .images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+
   img {
-    width: 30rem;
-    max-width: 100%;
-    margin-bottom: 3rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    border-radius: 8px;
+  }
+
+  picture {
+    display: block;
+  }
+
+  &.qualification {
+    display: block;
+    text-align: center;
+    padding: 0 1rem;
+
+    img {
+      max-width: min(30rem, 100%);
+      height: auto;
+      aspect-ratio: auto;
+      object-fit: initial;
+      border: 1rem solid white;
+      box-sizing: border-box;
+      display: inline-block;
+    }
   }
 }
 

@@ -48,9 +48,7 @@ const slides = [
 
 const EmblaCarousel: React.FC = () => {
   const options: EmblaOptionsType = { loop: true };
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);
-
-  console.warn(slides);
+  const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
 
   return (
     <section className="embla">
