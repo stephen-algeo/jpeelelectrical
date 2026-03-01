@@ -51,12 +51,12 @@ function App() {
         </div>
 
         <address className="call">
-          <a target="_blank" href="tel:+447929850056" rel="noopener noreferrer">
-            <div className="btn">
-              Call or text Jason
+          <a className="btn" target="_blank" href="tel:+447929850056" rel="noopener noreferrer">
+            <span>
+              <span>Call or text Jason</span>
               <br />
-              07929 850 056
-            </div>
+              <span>07929 850 056</span>
+            </span>
           </a>
         </address>
 
