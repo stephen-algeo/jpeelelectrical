@@ -12,11 +12,17 @@ function App() {
           src="./jpeel-logo.png"
         />
         <h2>Local domestic electrician</h2>
-        <img
-          className="hero"
-          src="images/jase.jpeg "
-          alt="Jason sat on a step outside a previous job with his tools and drinking a coffee"
-        />
+        <picture>
+          <source srcSet="images/jase.webp" type="image/webp" />
+          <img
+            className="hero"
+            src="images/jase.jpeg"
+            alt="Jason sat on a step outside a previous job with his tools and drinking a coffee"
+            width="1200"
+            height="1600"
+            style={{ height: 'auto' }}
+          />
+        </picture>
       </header>
       <section className="main">
         <div></div>
@@ -66,22 +72,46 @@ function App() {
         </div>
 
         <div className="images">
-          <img
-            src="images/extension-downlights.jpeg"
-            alt="downlight being install in a brightly lit extension"
-          />
-          <img
-            src="images/outside-lights.jpeg"
-            alt="a light being installed in a large garage"
-          />
-          <img
-            src="images/fusebox.jpeg"
-            alt="a freshly install fusebox (consumer unit)"
-          />
-          <img
-            src="images/hanging-light.jpeg"
-            alt="Jason up on a ladder installing a new light fitting"
-          />
+          <picture>
+            <source srcSet="images/extension-downlights.webp" type="image/webp" />
+            <img
+              src="images/extension-downlights.jpeg"
+              alt="downlight being install in a brightly lit extension"
+              loading="lazy"
+              width="1200"
+              height="1600"
+            />
+          </picture>
+          <picture>
+            <source srcSet="images/outside-lights.webp" type="image/webp" />
+            <img
+              src="images/outside-lights.jpeg"
+              alt="a light being installed in a large garage"
+              loading="lazy"
+              width="1200"
+              height="1600"
+            />
+          </picture>
+          <picture>
+            <source srcSet="images/fusebox.webp" type="image/webp" />
+            <img
+              src="images/fusebox.jpeg"
+              alt="a freshly install fusebox (consumer unit)"
+              loading="lazy"
+              width="1600"
+              height="1200"
+            />
+          </picture>
+          <picture>
+            <source srcSet="images/hanging-light.webp" type="image/webp" />
+            <img
+              src="images/hanging-light.jpeg"
+              alt="Jason up on a ladder installing a new light fitting"
+              loading="lazy"
+              width="1200"
+              height="1600"
+            />
+          </picture>
         </div>
         <div className="call">
           <a
@@ -106,10 +136,16 @@ function App() {
           </p>
         </div>
         <div className="images">
-          <img
-            src="images/qualification-nic-eic-domestic-install.jpeg"
-            alt="official logo symbolising the NIC qualification"
-          />
+          <picture>
+            <source srcSet="images/qualification-nic-eic-domestic-install.webp" type="image/webp" />
+            <img
+              src="images/qualification-nic-eic-domestic-install.jpeg"
+              alt="official logo symbolising the NIC qualification"
+              loading="lazy"
+              width="1181"
+              height="599"
+            />
+          </picture>
         </div>
       </section>
     </div>

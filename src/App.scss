@@ -62,7 +62,12 @@ section p {
   img {
     width: 30rem;
     max-width: 100%;
+    height: auto;
     margin-bottom: 3rem;
+  }
+
+  picture {
+    display: block;
   }
 }
 
