@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
-          alt="jpeel electrical logo"
+          alt="JPeel Electrical - Qualified Electrician Nafferton"
           className="main-logo"
           src="./jpeel-logo.png"
         />
@@ -29,7 +29,7 @@ function App() {
 
         <div className="info">
           <p>Over 20 years of experience working in people's homes</p>
-          <p>Fully Qualified and registered.</p>
+          <p>Fully Qualified and registered. NIC EIC registered.</p>
           <p>
             No callout charge, happy to come look
             <br /> and advise for free.
